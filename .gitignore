@@ -18,6 +18,8 @@ node_modules/
 MindMetric_ML_Frontend/dist/
 MindMetric_ML_Frontend/.env
 MindMetric_ML_Frontend/.env.local
+MindMetric_ML_Frontend/.env
+MindMetric_ML_Frontend/.env.example
 
 # OS
 .DS_Store

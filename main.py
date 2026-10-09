@@ -9,10 +9,13 @@ model=joblib.load("Mental_health_model.pkl")
 app=FastAPI()
 
 app.add_middleware(
-       CORSMiddleware,
-       allow_origins=["*"],
-       allow_methods=["*"],
-       allow_headers=["*"],
+    CORSMiddleware,
+    allow_origins=[
+        "https://mental-health-score-prediction-ten.vercel.app"
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 class StudentData(BaseModel):
     
