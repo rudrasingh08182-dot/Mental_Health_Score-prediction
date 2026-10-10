@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "https://mental-health-score-prediction-ywd6.onrender.com/"
+  import.meta.env.VITE_API_URL || "https://mental-health-score-prediction-ywd6.onrender.com/" 
 ).replace(/\/$/, "");
 
 const platforms = [
