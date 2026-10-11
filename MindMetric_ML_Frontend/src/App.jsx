@@ -1061,9 +1061,8 @@ function App() {
                   <div className="eyebrow">MODEL RESULT</div>
                   <h2>Your predicted mental health score</h2>
                   <p>
-                    This is the score returned directly by your trained
-                    machine-learning model. The interface does not change
-                    or invent the model output.
+                    This is the score returned directly by the trained
+                    machine-learning model.It's not a gusse
                   </p>
                   <button className="outline-btn" onClick={reset} type="button">
                     <Icon name="refresh" size={17} />
